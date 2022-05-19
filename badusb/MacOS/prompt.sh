@@ -8,8 +8,16 @@ read -r -d '' applescriptCode <<'EOF'
    return dialogText
 EOF
 
+
 dialogText=$(osascript -e "$applescriptCode");
 
-echo $dialogText;
+echo $dialogText >>  badusb.txt;
 
+dialogText=$(osascript -e "$applescriptCode");
+
+echo $dialogText >>  badusb.txt;
+
+dialogText=$(osascript -e "$applescriptCode");
+
+echo $dialogText >>  badusb.txt;
 
