@@ -4,7 +4,7 @@ I built a duckyscript for running a bash script from Github that prompts the use
 
 ![Prompt](images/prompt-run.png)
 
-I am working on setting up the prompt to run in a loop with the ability to specify in the script how many times to run. My ideal state is to run this three times to 1. be annoying an 2. really capture that password.
+I am working on setting up the prompt to run in a loop with the ability to specify in the script how many times to run. My ideal state is to run this three times to 1. be annoying and 2. really capture that password.
 
 ### Todo
 - [ ] Build a loop for prompt command
