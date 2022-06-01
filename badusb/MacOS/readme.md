@@ -11,3 +11,4 @@ I am working on setting up the prompt to run in a loop with the ability to speci
 - [ ] Build run switches to specify how many times to run the loop. 
 - [ ] Setup a delivery mechanism for saved password file
 - [ ] Create clean-up commands for the script.
+- [ ] Run a port scan looking for open ports i.e. `ssh`.
