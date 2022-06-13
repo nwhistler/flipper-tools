@@ -1,14 +1,26 @@
 # Prompt for a Mac User Password
 
-I built a duckyscript for running a bash script from Github that prompts the user for a password in a pretty convincing way and saves it to a text file.
+I built a BADUSB script for running a bash script from Github that prompts the user for a password in a pretty convincing way and saves it to a text file. I've tested this on the [Flipper Zero](https://flipperzero.one/).
+
+## <b>Usage</b>
+1. Modify the `MacOS-pwn.txt` with the switch commands you prefer to use.
+2. Copy either your modified `MacOS-pwn.txt` or the original to the device you use to trigger it. In my case, my Flipper Zero. 
+3. Run the command on the host you are trying to infiltrate.
+
 
 ![Prompt](images/prompt-run.png)
 
-I am working on setting up the prompt to run in a loop with the ability to specify in the script how many times to run. My ideal state is to run this three times to 1. be annoying and 2. really capture that password.
+## <b>New! Switch Commands</b>
+
+`-c` Does a clean mode and removes the pass.txt file at the end of the script execution.
+<br> `-o` Send the output to `onetimesecret.com` and generate a secret url.
+<br> `-n #` Specify how many times open the pop-up. Use it to <i>really</i> make sure you get that password. Example `./prompt.sh -n 3` runs the command three times.
+
+
 
 ### Todo
-- [ ] Build a loop for prompt command
-- [ ] Build run switches to specify how many times to run the loop. 
+- [X] Build a loop for prompt command
+- [X] Build run switches to specify how many times to run the loop. 
 - [ ] Setup a delivery mechanism for saved password file
-- [ ] Create clean-up commands for the script.
+- [X] Create clean-up commands for the script.
 - [ ] Run a port scan looking for open ports i.e. `ssh`.
