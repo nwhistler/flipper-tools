@@ -4,6 +4,7 @@ I built a BADUSB script for running a bash script from Github that prompts the u
 
 ## <b>Usage</b>
 1. Modify the `MacOS-pwn.txt` with the switch commands you prefer to use.
+    * To run the commands change the `| bash` to `bash -s -- -n 2` - 2 is an example of amount of times to run the prompt.
 2. Copy either your modified `MacOS-pwn.txt` or the original to the device you use to trigger it. In my case, my Flipper Zero. 
 3. Run the command on the host you are trying to infiltrate.
 
