@@ -17,7 +17,7 @@ I built a BADUSB script for running a bash script from Github that prompts the u
 <br> `-o` Send the output to `onetimesecret.com` and generate a secret url.
 <br> `-n #` Specify how many times open the pop-up. Use it to <i>really</i> make sure you get that password. Example `./prompt.sh -n 3` runs the command three times.
 
-## <b>New! Added an Admin check<b>
+## <b>New! Added an Admin check</b>
 
 Now the script will check if the user is an admin and put that in the output.
 
