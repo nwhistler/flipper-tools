@@ -36,7 +36,9 @@ and of course, here is how to undo it:
 If you really wanted to be a jerk, you could remap every key to dvorak layout. See below in the references for the Hex for each key.
 
 
-**Note:** This does revert on restart so if you get a real bind, you can restart and get back to normal.
+**Note:** 
+
+**This does revert on restart so if you get a real bind, you can restart and get back to normal.**
 
 
 
