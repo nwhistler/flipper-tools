@@ -2,3 +2,6 @@
 
 ## [Password-Prompt](password-prompt/)
 Fake Prompt a Mac OS Update to get the user to type their password as many times as you like.
+
+## [Key Remapper](key-remap/)
+Be an ASS and remap A to S and S to A.
