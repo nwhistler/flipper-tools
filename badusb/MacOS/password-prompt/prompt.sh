@@ -5,7 +5,7 @@ internalip=$(ifconfig en0 | grep inet | awk '$1=="inet" {print $2}')
 username=$(scutil <<< "show State:/Users/ConsoleUser" | awk '/Name :/ && ! /loginwindow/ { print $3 }')
 
 #Runtime Default Values
-promptcount=0
+promptcount=2
 cflag=
 oflag=
 nflag=

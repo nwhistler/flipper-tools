@@ -1,2 +1,6 @@
-badusb/MacOS/pass.txt
+badusb/MacOS/password-prompt/pass.txt
+badusb/MacOS/password-prompt/test.*
+badusb/MacOS/password-prompt/MacOS-pwn-mine.txt
+badusb/MacOS/password-prompt/MacOS-testing.txt
+badusb/MacOS/password-prompt/prompt-wip.sh
 *.DS_Store

