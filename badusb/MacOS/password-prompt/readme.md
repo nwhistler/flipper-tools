@@ -9,7 +9,7 @@ I built a BADUSB script for running a bash script from Github that prompts the u
 3. Run the command on the host you are trying to infiltrate.
 
 
-![Prompt](/images/../prompt-run.png)
+![Prompt](https://github.com/nwhistler/flipper-tools/blob/master/badusb/MacOS/images/prompt-run.png)
 
 ## <b>New! Switch Commands</b>
 
