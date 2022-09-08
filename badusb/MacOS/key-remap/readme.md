@@ -33,10 +33,14 @@ and of course, here is how to undo it:
 }'
 ```
 
-If you really wanted to be a jerk, you could remap every key to dvorak layout.
+If you really wanted to be a jerk, you could remap every key to dvorak layout. See below in the references for the Hex for each key.
 
-{% note %}
 
 **Note:** This does revert on restart so if you get a real bind, you can restart and get back to normal.
 
-{% endnote %}
+
+
+## References
+https://developer.apple.com/library/archive/technotes/tn2450/_index.html
+
+https://hidutil-generator.netlify.app/ - Special thanks [amarsyla](https://github.com/amarsyla/hidutil-key-remapping-generator) for the quick easy mode for generating the json.
