@@ -9,13 +9,13 @@ I built a BADUSB script for running a bash script from Github that prompts the u
 3. Run the command on the host you are trying to infiltrate.
 
 
-![Prompt](images/password-prompt/prompt-run.png)
+![Prompt](../images/password-prompt/prompt-run.png)
 
 ## <b>New! Switch Commands</b>
 
 `-c` Does a clean mode and removes the pass.txt file at the end of the script execution.
 <br> `-o` Send the output to `onetimesecret.com` and generate a secret url.
-<br> `-n #` Specify how many times open the pop-up. Use it to <i>really</i> make sure you get that password. Example `./prompt.sh -n 3` runs the command three times.
+<br> `-n #` Specify how many times to open the pop-up. Use it to <i>really</i> make sure you get that password. Example `./prompt.sh -n 3` runs the command three times.
 
 ## <b>New! Added an Admin check</b>
 
