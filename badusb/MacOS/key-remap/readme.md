@@ -54,6 +54,13 @@ See below in the references for the Hex for each key to create your own layout.
 
 **This does revert on restart so if you get a real bind, you can restart and get back to normal.**
 
+Also, this command below reverts it, BUT remember that duckyscripts act as a keyboard. So if you go to type this after, it will be in whatever keyboard layout you remapped the keys to. ***So that's fun.***
+```
+hidutil property --set '{"UserKeyMapping":[]}'
+UserKeyMapping:(
+)
+```
+
 <br>
 <br>
 
