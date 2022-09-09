@@ -33,14 +33,29 @@ and of course, here is how to undo it:
 }'
 ```
 
-If you really wanted to be a jerk, you could remap every key to dvorak layout. See below in the references for the Hex for each key.
+**NOW WITH MORE ASS**
 
+I've now included a script to remap the left half of the keyboard to A and the right to S.
+
+**DVORAK MODE**
+
+If you really wanted to be a jerk, you could remap every key to dvorak layout which I provide! 
+
+<br>
+<br>
+<br>
+See below in the references for the Hex for each key to create your own layout.
+
+<br>
+<br>
+<br>
 
 **Note:** 
 
 **This does revert on restart so if you get a real bind, you can restart and get back to normal.**
 
-
+<br>
+<br>
 
 ## References
 https://developer.apple.com/library/archive/technotes/tn2450/_index.html
