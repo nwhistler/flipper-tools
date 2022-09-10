@@ -61,6 +61,11 @@ UserKeyMapping:(
 )
 ```
 
+**NEW**
+
+- Now includes a revert script for Dvorak in Dvorak so you can undo. 
+- For the AS script, you will have to reboot to fix.
+
 <br>
 <br>
 
