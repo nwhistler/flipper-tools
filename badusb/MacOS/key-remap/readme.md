@@ -41,9 +41,6 @@ I've now included a script to remap the left half of the keyboard to A and the r
 
 If you really wanted to be a jerk, you could remap every key to dvorak layout which I provide! 
 
-<br>
-<br>
-<br>
 See below in the references for the Hex for each key to create your own layout.
 
 <br>
