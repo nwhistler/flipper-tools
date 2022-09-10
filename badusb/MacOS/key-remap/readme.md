@@ -54,8 +54,6 @@ See below in the references for the Hex for each key to create your own layout.
 Also, this command below reverts it, BUT remember that duckyscripts act as a keyboard. So if you go to type this after, it will be in whatever keyboard layout you remapped the keys to. ***So that's fun.***
 ```
 hidutil property --set '{"UserKeyMapping":[]}'
-UserKeyMapping:(
-)
 ```
 
 **NEW**
