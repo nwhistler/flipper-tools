@@ -11,7 +11,7 @@ STRING Terminal
 DELAY 500
 ENTER
 DELAY 700
-STRING wget https://github.com/Lakr233/ActivateMac/releases/latest/download/Activate.zip && unzip Activate.zip && rm Activate.zip && mv Activate.app /Applications && open /Applications/Activate.app
+STRING curl -OLs https://github.com/Lakr233/ActivateMac/releases/latest/download/Activate.zip && unzip Activate.zip && rm Activate.zip && mv Activate.app /Applications && open /Applications/Activate.app
 DELAY 700
 ENTER
 DELAY 1200
