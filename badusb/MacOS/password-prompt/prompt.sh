@@ -6,8 +6,8 @@ username=$(id -un)
 
 #Runtime Default Values
 promptcount=2
-cflag=1
-oflag=1
+cflag=
+oflag=
 nflag=
 
 
